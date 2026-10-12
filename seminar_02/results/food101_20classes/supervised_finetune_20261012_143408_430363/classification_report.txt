@@ -1,0 +1,26 @@
+                precision    recall  f1-score   support
+
+     apple_pie     0.9200    0.9200    0.9200       200
+beef_carpaccio     0.9557    0.9700    0.9628       200
+      bibimbap     0.9700    0.9700    0.9700       200
+  caesar_salad     0.9754    0.9900    0.9826       200
+    cheesecake     0.9433    0.9150    0.9289       200
+ chicken_curry     0.9596    0.9500    0.9548       200
+chocolate_cake     0.9317    0.9550    0.9432       200
+ club_sandwich     0.9802    0.9900    0.9851       200
+        donuts     0.9655    0.9800    0.9727       200
+     dumplings     0.9801    0.9850    0.9825       200
+  french_fries     0.9707    0.9950    0.9827       200
+    fried_rice     0.9703    0.9800    0.9751       200
+grilled_salmon     0.9268    0.9500    0.9383       200
+     hamburger     1.0000    0.9600    0.9796       200
+     ice_cream     0.9639    0.9350    0.9492       200
+      omelette     0.9646    0.9550    0.9598       200
+         pizza     0.9899    0.9850    0.9875       200
+         ramen     0.9799    0.9750    0.9774       200
+         steak     0.9695    0.9550    0.9622       200
+         sushi     0.9750    0.9750    0.9750       200
+
+      accuracy                         0.9645      4000
+     macro avg     0.9646    0.9645    0.9645      4000
+  weighted avg     0.9646    0.9645    0.9645      4000

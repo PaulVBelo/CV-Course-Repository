@@ -1,0 +1,151 @@
+{
+  "groups": [
+    {
+      "lr": 3.710045662100457e-08,
+      "weight_decay": 0.0,
+      "names": [
+        "backbone.encoder.blocks.10.norm1.weight",
+        "backbone.encoder.blocks.10.norm1.bias",
+        "backbone.encoder.blocks.10.attn.qkv.bias",
+        "backbone.encoder.blocks.10.attn.proj.bias",
+        "backbone.encoder.blocks.10.ls1.gamma",
+        "backbone.encoder.blocks.10.norm2.weight",
+        "backbone.encoder.blocks.10.norm2.bias",
+        "backbone.encoder.blocks.10.mlp.fc1.bias",
+        "backbone.encoder.blocks.10.mlp.fc2.bias",
+        "backbone.encoder.blocks.10.ls2.gamma"
+      ],
+      "betas": [
+        0.9,
+        0.999
+      ],
+      "eps": 1e-08,
+      "amsgrad": false,
+      "maximize": false,
+      "foreach": null,
+      "capturable": false,
+      "differentiable": false,
+      "fused": null,
+      "decoupled_weight_decay": true,
+      "initial_lr": 3.2500000000000004e-05
+    },
+    {
+      "lr": 3.710045662100457e-08,
+      "weight_decay": 0.01,
+      "names": [
+        "backbone.encoder.blocks.10.attn.qkv.weight",
+        "backbone.encoder.blocks.10.attn.proj.weight",
+        "backbone.encoder.blocks.10.mlp.fc1.weight",
+        "backbone.encoder.blocks.10.mlp.fc2.weight"
+      ],
+      "betas": [
+        0.9,
+        0.999
+      ],
+      "eps": 1e-08,
+      "amsgrad": false,
+      "maximize": false,
+      "foreach": null,
+      "capturable": false,
+      "differentiable": false,
+      "fused": null,
+      "decoupled_weight_decay": true,
+      "initial_lr": 3.2500000000000004e-05
+    },
+    {
+      "lr": 5.7077625570776255e-08,
+      "weight_decay": 0.0,
+      "names": [
+        "backbone.encoder.blocks.11.norm1.weight",
+        "backbone.encoder.blocks.11.norm1.bias",
+        "backbone.encoder.blocks.11.attn.qkv.bias",
+        "backbone.encoder.blocks.11.attn.proj.bias",
+        "backbone.encoder.blocks.11.ls1.gamma",
+        "backbone.encoder.blocks.11.norm2.weight",
+        "backbone.encoder.blocks.11.norm2.bias",
+        "backbone.encoder.blocks.11.mlp.fc1.bias",
+        "backbone.encoder.blocks.11.mlp.fc2.bias",
+        "backbone.encoder.blocks.11.ls2.gamma",
+        "backbone.encoder.norm.weight",
+        "backbone.encoder.norm.bias"
+      ],
+      "betas": [
+        0.9,
+        0.999
+      ],
+      "eps": 1e-08,
+      "amsgrad": false,
+      "maximize": false,
+      "foreach": null,
+      "capturable": false,
+      "differentiable": false,
+      "fused": null,
+      "decoupled_weight_decay": true,
+      "initial_lr": 5e-05
+    },
+    {
+      "lr": 5.7077625570776255e-08,
+      "weight_decay": 0.01,
+      "names": [
+        "backbone.encoder.blocks.11.attn.qkv.weight",
+        "backbone.encoder.blocks.11.attn.proj.weight",
+        "backbone.encoder.blocks.11.mlp.fc1.weight",
+        "backbone.encoder.blocks.11.mlp.fc2.weight"
+      ],
+      "betas": [
+        0.9,
+        0.999
+      ],
+      "eps": 1e-08,
+      "amsgrad": false,
+      "maximize": false,
+      "foreach": null,
+      "capturable": false,
+      "differentiable": false,
+      "fused": null,
+      "decoupled_weight_decay": true,
+      "initial_lr": 5e-05
+    },
+    {
+      "lr": 5.707762557077626e-07,
+      "weight_decay": 0.01,
+      "names": [
+        "head.weight"
+      ],
+      "betas": [
+        0.9,
+        0.999
+      ],
+      "eps": 1e-08,
+      "amsgrad": false,
+      "maximize": false,
+      "foreach": null,
+      "capturable": false,
+      "differentiable": false,
+      "fused": null,
+      "decoupled_weight_decay": true,
+      "initial_lr": 0.0005
+    },
+    {
+      "lr": 5.707762557077626e-07,
+      "weight_decay": 0.0,
+      "names": [
+        "head.bias"
+      ],
+      "betas": [
+        0.9,
+        0.999
+      ],
+      "eps": 1e-08,
+      "amsgrad": false,
+      "maximize": false,
+      "foreach": null,
+      "capturable": false,
+      "differentiable": false,
+      "fused": null,
+      "decoupled_weight_decay": true,
+      "initial_lr": 0.0005
+    }
+  ],
+  "trainable_parameters": 14195732
+}

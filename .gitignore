@@ -44,3 +44,8 @@ outputs/
 *.tmp
 .DS_Store
 Thumbs.db
+
+# Seminar feature caches and TensorBoard events
+.cache/
+.cache_seminar_02/
+events.out.tfevents.*

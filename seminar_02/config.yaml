@@ -1,0 +1,55 @@
+seed: 42
+device: cuda
+amp: true
+amp_dtype: bfloat16
+image_size: 224
+data:
+  name: food101
+  root: data
+  classes:
+  - apple_pie
+  - beef_carpaccio
+  - bibimbap
+  - caesar_salad
+  - cheesecake
+  - chicken_curry
+  - chocolate_cake
+  - club_sandwich
+  - donuts
+  - dumplings
+  - french_fries
+  - fried_rice
+  - grilled_salmon
+  - hamburger
+  - ice_cream
+  - omelette
+  - pizza
+  - ramen
+  - steak
+  - sushi
+  train_per_class: 700
+  val_from_train_per_class: 50
+  val_from_test_per_class: 50
+  test_per_class: 200
+  num_workers: 0
+  batch_size: 8
+cache_dir: .cache/seminar_02/food101_20classes
+results_dir: seminar_02/results/food101_20classes
+checkpoint_dir: checkpoints/seminar_02/food101_20classes
+linear_probe:
+  lr: 0.001
+  weight_decay: 0.0001
+  epochs: 20
+  batch_size: 128
+  accumulation_steps: 1
+finetune:
+  lr: 5.0e-05
+  head_lr: 0.0005
+  weight_decay: 0.01
+  epochs: 40
+  unfreeze_blocks: 2
+  layer_decay: 0.65
+  warmup_epochs: 4
+  accumulation_steps: 8
+  gradient_checkpointing: false
+  clip_grad_norm: 1.0
