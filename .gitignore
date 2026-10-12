@@ -1,0 +1,46 @@
+
+# Python virtual environments
+.venv/
+venv/
+env/
+
+# Python cache
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Environment and secrets
+.env
+.env.*
+!.env.example
+
+# ML datasets
+data/
+datasets/
+
+# Model weights and checkpoints
+checkpoints/
+weights/
+*.pt
+*.pth
+*.ckpt
+*.safetensors
+*.onnx
+
+# Training logs and experiment outputs
+runs/
+lightning_logs/
+wandb/
+tensorboard/
+outputs/
+
+# Temporary files
+*.log
+*.tmp
+.DS_Store
+Thumbs.db
